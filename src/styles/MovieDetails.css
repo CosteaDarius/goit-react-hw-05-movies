@@ -1,0 +1,77 @@
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #1c1c1c;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .movie-details img {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .details-info {
+    width: 100%;
+  }
+  
+  .details-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .details-info p {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .details-info button {
+    background: #ffcc00;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 100%;
+    transition: 0.3s;
+  }
+  
+  .details-info button:hover {
+    background: #ff9900;
+  }
+
+  .details-info nav {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .details-info nav a {
+    background: white; /* Fundal alb */
+    color: black; /* Text negru pentru contrast */
+    padding: 12px 20px; /* Dimensiune mai mare */
+    font-size: 16px; /* Mărim fontul */
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid #ffcc00;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .details-info nav a:hover {
+    background: #f1f1f1;
+    border-color: #ff9900;
+  }
+  

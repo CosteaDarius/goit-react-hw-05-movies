@@ -1,0 +1,48 @@
+.movies-page {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+    color: white;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #ffcc00;
+    font-size: 16px;
+    color: black; /* Face textul vizibil */
+    background-color: rgb(255, 255, 255); /* Fundal alb pentru contrast */
+    outline: none;
+  }
+  
+  .search-input::placeholder {
+    color: #000000; /* Culoare vizibilă pentru placeholder */
+  }
+  
+  .search-button {
+    background: #ffcc00;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .search-button:hover {
+    background: #ff9900;
+  }
+  
+  .search-text {
+    color: #000000;
+  }

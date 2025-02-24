@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    padding: 15px 40px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white; /* Alb */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .logo:hover {
+    color: #ffcc00; /* Schimbare culoare la hover */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00;
+  }
+  
