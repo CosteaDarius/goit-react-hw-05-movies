@@ -1,0 +1,2 @@
+.movie-list{grid-gap:20px;display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin:auto;max-width:1200px;padding:20px}.movie-card{background:#222;border-radius:10px;box-shadow:3px 3px 10px #0000004d;overflow:hidden;transition:transform .3s}.movie-card:hover{transform:scale(1.05)}.movie-card img{height:300px;object-fit:cover;width:100%}.movie-info{color:#fff;font-size:16px;padding:10px;text-align:center}
+/*# sourceMappingURL=264.b0eb15ac.chunk.css.map*/
